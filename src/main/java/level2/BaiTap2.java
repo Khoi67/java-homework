@@ -6,7 +6,7 @@ public class BaiTap2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Nhập một chuỗi: ");
+        System.out.print("Nhập một chuỗi để kiểm tra đối xứng: ");
         String chuoi = scanner.nextLine();
 
         if(isPalindrome(chuoi)) {

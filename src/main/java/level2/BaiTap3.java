@@ -6,7 +6,7 @@ public class BaiTap3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Nhập một chuỗi: ");
+        System.out.print("Nhập một chuỗi để kiểm tra xóa lặp: ");
         String chuoi = scanner.nextLine();
 
         System.out.println("Chuỗi sau khi xóa lặp: " + xoaKyTuLapLai(chuoi));

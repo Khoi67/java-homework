@@ -18,7 +18,7 @@ public class BaiTap1 {
         for (int i = 0; i < number.length; i++) {
             for (int j = 0; j < number.length; j++) {
                 if (number[i] + number[j] == target) {
-                    System.out.println("Vị trí của index: " + (i+1) + " và " + (j+1));
+                    System.out.println("Vị trí của số cho tổng bằng " + target + ": " + (i+1) + " và " + (j+1));
                     found = true;
                     break;
                 }
